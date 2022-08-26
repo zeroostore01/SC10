@@ -29,9 +29,9 @@ let _cmdUser = JSON.parse(fs.readFileSync('./database/commandUser.json'));
 let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
-limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+limitawal = '5'
+botname = '𝒁 𝑬 𝑹 𝑶•𝑴𝑫'
+wm = '© 𝒁 𝑬 𝑹 𝑶 - 𝑴𝑫'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -249,14 +249,14 @@ timezone: "Asia/Jakarta"
 	}
 
 const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-let po = zets.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
+let po = zets.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝒁 𝑬 𝑹 𝑶","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
 return zets.relayWAMessage(po, {waitForAck: true, quoted:mek})
 }
 	
 	  // Anti Link
 if (db.data.chats[m.chat].antilink) {
 if (budy.match(`chat.whatsapp.com`)) {
-m.reply(`「 ANTI LINK 」\n\nKamu terdeteksi mengirim link group, maaf kamu akan di kick !`)
+m.reply(`「 ANTI LINK 」\n\nGaje Kick ae lah🥴`)
 if (!isBotAdmins) return m.reply(`Ehh bot gak admin T_T`)
 let gclink = (`https://chat.whatsapp.com/`+await zets.groupInviteCode(m.chat))
 let isLinkThisGc = new RegExp(gclink, 'i')
@@ -680,9 +680,9 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+𝒁 𝑬 𝑹 𝑶
+⌕ https://chat.whatsapp.com/E8IwFUibPjkDgilRKw6JBg
+⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2
 
 `
 	let btn = [{
