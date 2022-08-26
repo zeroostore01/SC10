@@ -652,16 +652,15 @@ delete this.suit[id]
 }
 break
 	case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/Rifando35\n⌕ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+zets.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/188d6eeec51023a4d335e.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 5k Per Group via Dana Permanen\n⌕ 10k via pulsa Permanen\n\n Premium Price Bot\n⌕ 2k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283890585717 (Owner)\n\nDonate For Me : \n\n⌕ Qrissl : https://telegra.ph/file/188d6eeec51023a4d335e.jpg\n⌕ Group : https://chat.whatsapp.com/E8IwFUibPjkDgilRKw6JBg` }, { quoted: m })
 }
 break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
+⌕ Script : Recode sendiri ae banh
 
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
+⌕ Donate : 085784914140 (Dana)
 ⌕ Saweria : Kaga ada
 ⌕ Paypal : kaga ada
 
@@ -2669,7 +2668,7 @@ break
 
 case 'menu': case 'help': case '?': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-buffer = `https://i.postimg.cc/PxTQPVrz/null-20220821-WA0032.jpg`
+buffer = `https://telegra.ph/file/007b2e78955f01e3cc063.jpg`
 anu = `Hai kak ${pushname}, have a nice day:)
    
 ♕︎ *INFO - BOT*
@@ -2681,7 +2680,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
 ✔︎ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
 ✔︎ *Library:* _Baileys-Md_
 
-♕︎ *Group*
+♨️ *Group*
    ⚠︎ ${prefix}linkgroup
    ⚠︎ ${prefix}ephemeral [option]
    ⚠︎ ${prefix}setppgc [image]
@@ -2703,7 +2702,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}cekvote
    ⚠︎ ${prefix}hapusvote
 
-♕︎ *Downloader*
+🗄️ *Downloader*
    ⚠︎ ${prefix}tiktoknowm [url]
    ⚠︎ ${prefix}tiktokwm [url]
    ⚠︎ ${prefix}tiktokmp3 [url]
@@ -2720,7 +2719,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}joox [query]
    ⚠︎ ${prefix}soundcloud [url]
 
-♕︎ *Searching*
+🔎︎ *Searching*
    ⚠︎ ${prefix}play [query]
    ⚠︎ ${prefix}yts [query]
    ⚠︎ ${prefix}google [query]
@@ -2732,7 +2731,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}ringtone [query]
    ⚠︎ ${prefix}stalk [option] [query]
 
-♕︎ *Random*
+🥴︎ *Random*
    ⚠︎ ${prefix}coffe
    ⚠︎ ${prefix}quotesanime
    ⚠︎ ${prefix}motivasi
@@ -2751,7 +2750,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}trap (nsfw)
    ⚠︎ ${prefix}blowjob (nsfw)
 
-♕︎ *Textpro*
+💻 *Textpro*
    ⚠︎ ${prefix}3dchristma
    ⚠︎ ${prefix}3ddeepsea
    ⚠︎ ${prefix}americanflag
@@ -2784,7 +2783,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}blackpink
    ⚠︎ ${prefix}gluetext
 
-♕︎ *Fun*
+🤖︎ *Fun*
    ⚠︎ ${prefix}halah
    ⚠︎ ${prefix}hilih
    ⚠︎ ${prefix}huluh
@@ -2799,7 +2798,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}math [mode]
    ⚠︎ ${prefix}suitpvp [@tag]
 
-♕︎ *Primbon*
+⛔ *Primbon*
    ⚠︎ ${prefix}nomorhoki
    ⚠︎ ${prefix}artimimpi
    ⚠︎ ${prefix}artinama
@@ -2831,7 +2830,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}zodiak
    ⚠︎ ${prefix}shio
 
-♕︎ *Convert*
+🔥 *Convert*
    ⚠︎ ${prefix}toimage
    ⚠︎ ${prefix}removebg
    ⚠︎ ${prefix}sticker
@@ -2846,7 +2845,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}dbinary
    ⚠︎ ${prefix}styletext
 
-♕︎ *Main*
+💌︎ *Main*
    ⚠︎ ${prefix}ping
    ⚠︎ ${prefix}owner
    ⚠︎ ${prefix}menu / ${prefix}help / ${prefix}?
@@ -2858,7 +2857,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}listonline
    ⚠︎ ${prefix}speedtest
 
-♕︎ *Database*
+📄 *Database*
    ⚠︎ ${prefix}setcmd
    ⚠︎ ${prefix}listcmd
    ⚠︎ ${prefix}delcmd
@@ -2868,21 +2867,21 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}getmsg
    ⚠︎ ${prefix}delmsg
 
-♕︎ *Anonymous Chat*
+👤 *Anonymous Chat*
    ⚠︎ ${prefix}anonymous
    ⚠︎ ${prefix}start
    ⚠︎ ${prefix}next
    ⚠︎ ${prefix}keluar
    ⚠︎ ${prefix}sendkontak
 
-♕︎ *Islam*
+🕌 *Islam*
    ⚠︎ ${prefix}iqra
    ⚠︎ ${prefix}hadist
    ⚠︎ ${prefix}alquran
    ⚠︎ ${prefix}juzamma
    ⚠︎ ${prefix}tafsirsurah
 
-♕︎ *Voice Changer*
+🔊︎ *Voice Changer*
    ⚠︎ ${prefix}bass
    ⚠︎ ${prefix}blown
    ⚠︎ ${prefix}deep
@@ -2895,7 +2894,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}slow
    ⚠︎ ${prefix}tupai
 
-♕︎ *Owner*
+📊︎ *Owner*
    ⚠︎ ${prefix}react [emoji]
    ⚠︎ ${prefix}chat [option]
    ⚠︎ ${prefix}join [link]
